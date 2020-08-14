@@ -1,4 +1,4 @@
-### New Developer Test: Wishlist for Santa
+### New Developer Test: Wish List For Santa
 
 For this assignment, you must build a basic application using React and Redux that allows users to add items (strings) to a "wish list" and then submit the list (to Santa).
 
@@ -6,6 +6,10 @@ For this assignment, you must build a basic application using React and Redux th
 ![](src/assets/demo.gif)
 
 ## Requirements
+  * Clone the repository and run `npm install` or  `yarn add` to set up your local environemnt.  When you are finished with your solution, push to a new remote branch and email Kevin to let him know you are finished so your work can be reviewed.
+
+  <br/>
+
   * Items may not be empty strings nor duplicates of an item already on the list.
   * Clicking on an item in the list should remove it from the list.
   * Clicking the submit button should clear the wish list and create an alert that says 'Wish list submitted to Santa!'
