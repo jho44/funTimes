@@ -6,7 +6,7 @@ For this assignment, you must build a basic application using React and Redux th
 ![](src/assets/demo.gif)
 
 ## Requirements
-  * Clone the repository and run `npm install` or  `yarn add` to set up your local environemnt.  When you are finished with your solution, push to a new remote branch and email Kevin to let him know you are finished so your work can be reviewed.
+  * Fork and clone the repository, and run `npm install` or  `yarn add` to set up your local environemnt.  When you are finished with your solution, email Kevin to let him know you are finished so your work can be reviewed.
 
   <br/>
 
