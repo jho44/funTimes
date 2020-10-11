@@ -27,8 +27,8 @@ For this assignment, you must build a basic application using React and Redux th
 
 ## Guidelines
   * Aside from styling and reducer.jsx, all code should be written inside of App.jsx.
-  * You may use hooks or class components, whatever you prefer.
-  * You may use any styling libraries if you prefer (e.g. Styled-Components, Aphrodite, etc.).
+  * React hooks are preferred to class components if you are comfortable with them.  If not, that is okay, too.
+  * Use of Styled-Components is preferred, though you may use any other styling libraries (or none) that you are more comfortable with.
 
   <br/>
 
