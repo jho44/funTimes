@@ -6,23 +6,23 @@ For this assignment, you must build a basic application using React and Redux th
 ![](src/assets/demo.gif)
 
 ## Requirements
-  * Fork and clone the repository, and run `npm install` or  `yarn add` to set up your local environemnt.  When you are finished with your solution, email Kevin to let him know you are finished so your work can be reviewed.
+  * Clone the repository, and run `npm install` or  `yarn add` to set up your local environemnt.  When you are finished with your solution, push it to Github (please avoid including references to Halo in the repo title), and email Kevin to let him know you are finished so your work can be reviewed.
 
   <br/>
 
-  * Items may not be empty strings nor duplicates of an item already on the list.
+  * Items may not be blank strings nor duplicates of an item already on the list.
   * Clicking on an item in the list should remove it from the list.
   * Clicking the submit button should clear the wish list and create an alert that says 'Wish list submitted to Santa!'
   * User cannot submit if their wish list is empty.
 
   <br/>  
 
-  * Please complete the Redux reducer in redux > reducer.jsx.  (Adding and deleting items from the list should be handled by Redux.)
+  * Please complete the Redux reducer in redux > reducer.jsx.  (Adding and deleting items from the list should be handled by Redux.)  Do not add any new actions, as this is a part of the challenge.
   * Everything else regarding Redux has been done for you (i.e. store, actions, etc.) and can be found in the "redux" folder
 
   <br/>
 
-  * Please give a reasonable effort to match the styling in the demo.  As a head start, the inner container's dimensions are 400px x 540px.  You do not need to worry about the font-family.
+  * Please give a reasonable effort to closely match the styling in the demo.  This task is meant to test your ability to create accurate, responsive components.  As a head start, the inner container's dimensions are 400px x 540px.  You do not need to worry about the font-family.
 
 
 ## Guidelines
