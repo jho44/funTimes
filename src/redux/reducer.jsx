@@ -9,19 +9,21 @@ const INITIAL_STATE = {
 
 // Complete the three cases below
 const reducer = (state = INITIAL_STATE, action) => {
+  let newState = {}
+
   switch (action.type) {
     case ADD_ITEM:
-      return {
-        wishList: ,
-      };
+      if (state.wishList === undefined)
+        newState.wishList = [action.payload]
+      else newState.wishList = [...state.wishList, action.payload]
+      return newState;
     case DELETE_ITEM:
+      newState = state.wishList.filter(x => x !== action.payload)
       return {
-        wishList: ,
+        wishList: newState,
       };
     default:
-      return {
-        wishList: ,
-      };
+      return state;
   }
 };
 
